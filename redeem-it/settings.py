@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'cheese.urls'
+ROOT_URLCONF = 'redeem-it.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'cheese.wsgi.application'
+WSGI_APPLICATION = 'redeem-it.wsgi.application'
 
 
 # Database
